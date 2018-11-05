@@ -16,7 +16,7 @@ jobs:
 
       # install node items and build
       - run: apk add yarn
-
+      - run: mkdir static/fonts && mkdir static/js
       - run: yarn && yarn copy && yarn build:js
 
       - run:

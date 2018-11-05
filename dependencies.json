@@ -1,0 +1,79 @@
+{
+  "filesToCopy": [
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot",
+      "to": "static/fonts/fa-brands-400.eot"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg",
+      "to": "static/fonts/fa-brands-400.svg"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf",
+      "to": "static/fonts/fa-brands-400.ttf"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff",
+      "to": "static/fonts/fa-brands-400.woff"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2",
+      "to": "static/fonts/fa-brands-400.woff2"
+    },
+
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot",
+      "to": "static/fonts/fa-regular-400.eot"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg",
+      "to": "static/fonts/fa-regular-400.svg"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf",
+      "to": "static/fonts/fa-regular-400.ttf"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff",
+      "to": "static/fonts/fa-regular-400.woff"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2",
+      "to": "static/fonts/fa-regular-400.woff2"
+    },
+
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot",
+      "to": "static/fonts/fa-solid-900.eot"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg",
+      "to": "static/fonts/fa-solid-900.svg"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf",
+      "to": "static/fonts/fa-solid-900.ttf"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff",
+      "to": "static/fonts/fa-solid-900.woff"
+    },
+    {
+      "from": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2",
+      "to": "static/fonts/fa-solid-900.woff2"
+    },
+    {
+      "from": "node_modules/jquery/dist/jquery.js",
+      "to": "static/js/vendor/jquery.js"
+    },
+    {
+      "from": "node_modules/what-input/dist/what-input.js",
+      "to": "static/js/vendor/what-input.js"
+    },
+    {
+      "from": "node_modules/foundation-sites/dist/js/foundation.js",
+      "to": "static/js/vendor/foundation.js"
+    }
+  ],
+  "settings": {}
+}

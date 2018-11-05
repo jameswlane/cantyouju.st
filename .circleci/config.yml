@@ -26,6 +26,7 @@ jobs:
             pip install awscli
 
       # build with Hugo
+      - run: mkdir content && mkdir data
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
 
       - run:

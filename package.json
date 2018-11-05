@@ -1,0 +1,74 @@
+{
+  "name": "cantyouju.st",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "hugo:watch": "hugo server --source ./site -D -F --disableFastRender",
+    "copy": "rimraf static/fonts/*.* && rimraf static/js/*.* && copy-files-from-to dependencies.json",
+    "copy:prod": "rimraf static/fonts/*.* && rimraf static/js/*.* && copy-files-from-to dependencies.json prod",
+    "hugo:build": "hugo --source ./site",
+    "build": "npm run build:types && npm run build:js",
+    "dev": "rimraf public && hugo",
+    "build:2": "rimraf public && hugo",
+    "deploy:prod": "hugo",
+    "postdeploy:prod": "gulp",
+    "serve": "hugo server -D",
+    "serve:verbose": "hugo server --verboseLog",
+    "serve:noreload": "hugo server --disableLiveReload",
+    "test": "jest",
+    "type:check": "tsc --noEmit",
+    "type:check:watch": "npm run type-check -- --watch",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir static/js --extensions \".ts,.tsx\" --source-maps inline",
+    "bundle": "webpack",
+    "stylelint": "stylelint \"assets/sass/*.scss\"",
+    "webpack:build": "webpack -p",
+    "webpack:watch": "webpack -w --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jameswlane/cantyouju.st.git"
+  },
+  "author": "james.w.lane@mac.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswlane/cantyouju.st/issues"
+  },
+  "homepage": "https://github.com/jameswlane/cantyouju.st#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "@types/jest": "^23.3.9",
+    "@types/jquery": "^3.3.22",
+    "babel-loader": "^8.0.4",
+    "copy-files-from-to": "^0.2.3",
+    "cz-conventional-changelog": "2.1.0",
+    "dom-testing-library": "^3.12.0",
+    "foundation-sites": "^6.5.0",
+    "jest": "^23.6.0",
+    "jquery": "^3.3.1",
+    "markdownlint": "^0.11.0",
+    "markdownlint-cli": "^0.13.0",
+    "rimraf": "^2.6.2",
+    "stylelint": "^9.7.1",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.2",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2",
+    "what-input": "^5.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

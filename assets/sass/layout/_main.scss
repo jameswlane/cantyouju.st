@@ -9,9 +9,9 @@ html {
 }
 
 .container {
-  @include xy-grid-container(800rem, 50rem);
+  //@include xy-grid-container(800rem, 50rem);
 }
 
 .cell {
-  @include xy-cell();
+  //@include xy-cell();
 }

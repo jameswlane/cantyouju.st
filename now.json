@@ -1,11 +1,5 @@
 {
   "alias": ["cantyouju.st", "www.cantyouju.st"],
-  "build": {
-    "env": {
-      "GITHUB_TOKEN": "@github-api-token",
-      "NODE_ENV": "production"
-    }
-  },
   "builds": [
     {
       "src": "package.json",

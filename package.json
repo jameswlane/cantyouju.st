@@ -21,7 +21,7 @@
     "now-build": "npm run build"
   },
   "dependencies": {
-    "gatsby-image": "2.2.7",
+    "gatsby-image": "2.2.8",
     "gatsby-plugin-typography": "2.3.2",
     "babel-eslint": "^10.0.1",
     "classnames": "^2.2.6",

@@ -37,7 +37,7 @@
     "gatsby-plugin-react-helmet": "^3.1.7",
     "gatsby-plugin-sharp": "^2.2.31",
     "gatsby-plugin-sitemap": "^2.2.19",
-    "gatsby-plugin-twitter": "^2.1.9",
+    "gatsby-plugin-twitter": "^2.1.12",
     "gatsby-remark-autolink-headers": "^2.1.16",
     "gatsby-remark-copy-linked-files": "^2.1.19",
     "gatsby-remark-images": "3.1.25",

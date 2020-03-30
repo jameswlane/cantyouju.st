@@ -39,7 +39,7 @@
     "gatsby-plugin-sitemap": "^2.3.1",
     "gatsby-plugin-twitter": "^2.1.21",
     "gatsby-remark-autolink-headers": "^2.2.1",
-    "gatsby-remark-copy-linked-files": "^2.1.38",
+    "gatsby-remark-copy-linked-files": "^2.2.1",
     "gatsby-remark-images": "3.2.1",
     "gatsby-remark-prismjs": "^3.3.36",
     "gatsby-remark-responsive-iframe": "^2.2.34",
